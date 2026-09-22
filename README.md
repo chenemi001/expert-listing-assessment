@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Expert Listing — Frontend Assessment
 
-## Getting Started
+A responsive property-focused social feed built from the provided Figma design for the Expert Listing frontend assessment.
 
-First, run the development server:
+The application recreates the provided interface with reusable React components, responsive layouts, interactive states, mock data, and a mobile-first experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Expert Listing combines property discovery with a social-style feed where users can:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Browse property-related posts
+- View property images and video previews
+- Explore user stories
+- Filter and discover trending searches
+- Like, save, comment, and share posts
+- View property locations and listing status
+- Navigate through the mobile bottom navigation
+- Interact with responsive UI elements and micro-interactions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The implementation focuses on translating the provided Figma design into a clean, responsive, and maintainable frontend.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Live Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Live Demo:** Add your Vercel/Netlify URL here
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**GitHub:** Add your GitHub repository URL here
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Lucide React**
+- **Next/Image**
+
+---
+
+## 📁 Project Structure
+
+```text
+expert-listing-assessment/
+│
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── feed/
+│   │   ├── Composer.tsx
+│   │   ├── Feed.tsx
+│   │   ├── FeedFilters.tsx
+│   │   ├── FeedPost.tsx
+│   │   ├── Stories.tsx
+│   │   └── StoryItem.tsx
+│   │
+│   ├── layout/
+│   │   ├── BottomNav.tsx
+│   │   └── MobileHeader.tsx
+│   │
+│   ├── property/
+│   │   └── PropertyImage.tsx
+│   │
+│   └── ui/
+│       └── Avatar.tsx
+│
+├── data/
+│   └── mockData.ts
+│
+├── types/
+│   └── index.ts
+│
+└── public/
+    └── images/
+        ├── avatars/
+        ├── logos/
+        └── properties/
