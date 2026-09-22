@@ -23,7 +23,7 @@ The implementation focuses on translating the provided Figma design into a clean
 
 ## 🚀 Live Demo
 
-**Live Demo:** Add your Vercel/Netlify URL here
+**Live Demo:** https://expert-listing-assessment-pi.vercel.app/
 
 **GitHub:** http://github.com/chenemi001/expert-listing-assessment
 
